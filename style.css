@@ -49,3 +49,16 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Image Gallery Styling */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* space between images */
+}
+
+.gallery img {
+    width: 100%; /* make images responsive */
+    max-width: 200px; /* limit max width */
+    border-radius: 5px; /* rounded corners */
+}
