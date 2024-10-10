@@ -1,20 +1,17 @@
-/* General Styling */
+/* src/App.css */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f0f0f0; /* Light grey background */
 }
 
 header {
-    background-color: #333;
+    background-color: #333; /* Dark header */
     color: white;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
-}
-
-header h1 {
-    margin: 0;
 }
 
 nav ul {
@@ -32,10 +29,9 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Latest News Section Styling */
 #latest-news {
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #fff; /* White background for news section */
 }
 
 .news-item {
@@ -51,29 +47,8 @@ nav ul li a {
     margin: 5px 0;
 }
 
-/* Image Gallery Styling */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px; /* space between images */
-}
-
-.gallery img {
-    width: 100%; /* make images responsive */
-    max-width: 200px; /* limit max width */
-    border-radius: 5px; /* rounded corners */
-}
-
-section {
-    padding: 20px;
-}
-
-h2 {
-    color: #333;
-}
-
 footer {
-    background-color: #333;
+    background-color: #333; /* Dark footer */
     color: white;
     text-align: center;
     padding: 10px;
